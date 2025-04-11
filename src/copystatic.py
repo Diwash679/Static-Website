@@ -1,9 +1,6 @@
 import os
 import shutil
 
-source_dir_path = "statics/content"
-dest_dir_path = "statics/public"
-
 
 def copy_files_recursive(source_dir_path, dest_dir_path):
     if not os.path.exists(dest_dir_path):
